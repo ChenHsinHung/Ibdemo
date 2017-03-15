@@ -12,6 +12,9 @@
 		F82B9D401E799CB700C6726F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82B9D3E1E799CB700C6726F /* Main.storyboard */; };
 		F82B9D421E799CB700C6726F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82B9D411E799CB700C6726F /* Assets.xcassets */; };
 		F82B9D451E799CB700C6726F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82B9D431E799CB700C6726F /* LaunchScreen.storyboard */; };
+		F82B9D4F1E799CE200C6726F /* CustomizableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B9D4C1E799CE200C6726F /* CustomizableTextfield.swift */; };
+		F82B9D501E799CE200C6726F /* customizableUIimageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B9D4D1E799CE200C6726F /* customizableUIimageView.swift */; };
+		F82B9D511E799CE200C6726F /* customizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B9D4E1E799CE200C6726F /* customizableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F82B9D411E799CB700C6726F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82B9D441E799CB700C6726F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F82B9D461E799CB700C6726F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82B9D4C1E799CE200C6726F /* CustomizableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableTextfield.swift; sourceTree = "<group>"; };
+		F82B9D4D1E799CE200C6726F /* customizableUIimageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customizableUIimageView.swift; sourceTree = "<group>"; };
+		F82B9D4E1E799CE200C6726F /* customizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customizableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				F82B9D3A1E799CB700C6726F /* AppDelegate.swift */,
 				F82B9D3C1E799CB700C6726F /* ViewController.swift */,
 				F82B9D3E1E799CB700C6726F /* Main.storyboard */,
+				F82B9D4C1E799CE200C6726F /* CustomizableTextfield.swift */,
+				F82B9D4D1E799CE200C6726F /* customizableUIimageView.swift */,
+				F82B9D4E1E799CE200C6726F /* customizableButton.swift */,
 				F82B9D411E799CB700C6726F /* Assets.xcassets */,
 				F82B9D431E799CB700C6726F /* LaunchScreen.storyboard */,
 				F82B9D461E799CB700C6726F /* Info.plist */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82B9D3D1E799CB700C6726F /* ViewController.swift in Sources */,
+				F82B9D511E799CE200C6726F /* customizableButton.swift in Sources */,
 				F82B9D3B1E799CB700C6726F /* AppDelegate.swift in Sources */,
+				F82B9D501E799CE200C6726F /* customizableUIimageView.swift in Sources */,
+				F82B9D4F1E799CE200C6726F /* CustomizableTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
